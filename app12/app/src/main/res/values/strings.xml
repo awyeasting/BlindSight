@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">App1</string>
+
+    <string-array name="categories">
+        <item>Bathroom</item>
+        <item>Lounge</item>
+        <item>Cafeteria</item>
+        <item>Front Desk</item>
+        <item>Bedroom</item>
+    </string-array>
+</resources>
