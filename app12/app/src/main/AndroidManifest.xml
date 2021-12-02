@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.App1">
         <activity
+            android:name=".Navigation"
+            android:exported="true" />
+        <activity
             android:name=".Set_Route"
             android:exported="true" />
         <activity

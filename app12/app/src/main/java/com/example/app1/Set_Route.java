@@ -40,5 +40,14 @@ public class Set_Route extends AppCompatActivity {
                 startActivity(new Intent(Set_Route.this, MainPage.class));
             }
         });
+
+        Button Start_Nav = (Button) findViewById(R.id.Start_Navigation_Button);
+
+        Start_Nav.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(Set_Route.this, MainPage.class));
+            }
+        });
     }
 }
