@@ -29,6 +29,7 @@ public class Login_Page extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        getSupportActionBar().hide();
 
         // How to create event with Button... Login button.
         // Var name             object    find          ID as named in xml

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">App1</string>
+    <string name="app_name">Blind Sight</string>
 
     <string-array name="categories">
         <item>Bathroom</item>
