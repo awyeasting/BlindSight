@@ -37,7 +37,8 @@ public class Set_Route extends AppCompatActivity {
         Back_Button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(Set_Route.this, MainPage.class));
+                finish();
+                Set_Route.super.onBackPressed();
             }
         });
 
@@ -46,7 +47,7 @@ public class Set_Route extends AppCompatActivity {
         Start_Nav.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(Set_Route.this, MainPage.class));
+                startActivity(new Intent(Set_Route.this, Navigation.class));
             }
         });
     }

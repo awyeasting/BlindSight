@@ -31,4 +31,12 @@
         android:text="Exit Navigation"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
+
+    <ProgressBar
+        android:id="@+id/NavProgress"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:progress="0"
+        android:max="1000"/>
 </androidx.appcompat.widget.LinearLayoutCompat>
