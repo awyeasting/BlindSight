@@ -72,7 +72,8 @@ public class Login_Page extends AppCompatActivity {
                 String Input_Password = Password_Prompt.getText().toString();
 
                 //validate
-                isValid = validate(Input_Email, Input_Password);
+                isValid = true; // For testing purposes
+                //isValid = validate(Input_Email, Input_Password);
 
                 //if credentials are right
                 if (isValid){
