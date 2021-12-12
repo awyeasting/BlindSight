@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".Navigation">
+
+    <TextView
+        android:id="@+id/Route_Step_Header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:paddingTop="100dp"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:text="Next route step:" />
+
+    <ProgressBar
+        android:id="@+id/NavProgress"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:progress="0"
+        android:max="1000"/>
+
+    <TextView
+        android:id="@+id/Route_Step"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:padding="20dp"
+        android:text="Turn left in 200 feet"/>
+
+    <TextView
+        android:id="@+id/Arrived"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Arrived"
+        android:textAlignment="center"
+        android:textSize="50dp"
+        android:padding="50dp"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/Exit_Navigation"
+        android:text="Exit Navigation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

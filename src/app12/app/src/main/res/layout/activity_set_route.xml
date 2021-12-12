@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Set_Route"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/editTextTextPersonName12"
+        android:layout_width="382dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Search for a new or saved route below"
+        android:textSize="22sp"/>
+
+    <EditText
+        android:id="@+id/Search_Bar"
+        android:layout_width="361dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="Enter name or address of destination!"
+        android:inputType="textPersonName"
+        android:textSize="20sp" />
+
+    <ListView
+        android:id="@+id/Routes_List"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+            android:id="@+id/Back_Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:layout_marginRight="20dp"/>
+
+        <Button
+            android:id="@+id/Save_As_Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save As" />
+
+        <Button
+            android:id="@+id/Search_Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Search"
+            android:layout_marginLeft="20dp"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Start_Navigation_Button"
+        android:layout_width="162dp"
+        android:layout_height="101dp"
+        android:text="Start Navigation"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>
